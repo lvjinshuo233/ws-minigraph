@@ -449,10 +449,10 @@ mg_idx_t *mg_index(gfa_t *g, const mg_idxopt_t *io, int n_threads, mg_mapopt_t *
 		fprintf(stderr, "ERROR: failed to fix repetitive intervals\n");
 		assert(0);
 	}*/
-	if(!show_rep(collect_rep)){
+	/*if(!show_rep(collect_rep)){
 		fprintf(stderr, "ERROR: failed to show repetitive intervals\n");
 		assert(0);
-	}
+	}*/
 	/**
 	 * 构建基于加权syncmer索引gi的strobemer索引：si
 	 */

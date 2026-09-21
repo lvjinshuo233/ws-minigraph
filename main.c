@@ -408,11 +408,11 @@ if (g_seed_fp) { fclose(g_seed_fp); g_seed_fp = NULL; }
 if (g_seed_rep_fp) { fclose(g_seed_rep_fp); g_seed_rep_fp = NULL; }
 if (g_seed_all_fp) { fclose(g_seed_all_fp); g_seed_all_fp = NULL; }	
 if (g_anchor_fp) { fclose(g_anchor_fp); g_anchor_fp = NULL; }
-fclose(f_check);
+/*fclose(f_check);
 fclose(f_seq);
 fclose(f_freq);
 fclose(f_samplingInfo);
-fclose(f_rep);
+fclose(f_rep);*/
 /*fprintf(stderr, "TOTAL_ANCHORS\t%lld\n", total_anchors);
 fprintf(stderr, "TOTAL_ANCHORS_REMove\t%lld\n", total_anchors_rem);
 fprintf(stderr, "k-mers indexed:\t%ld\n", n_syncmers);
