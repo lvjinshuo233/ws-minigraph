@@ -1,0 +1,36 @@
+.*.swp
+*.o
+*.a
+Makefile.bak
+ws-minigraph
+# 日志与临时文件
+*.log
+*.txt
+*.txtp
+check.txt
+freq.txt
+num.txt
+rep.txt
+seq.txt
+temp.txt
+matrix_out.txt
+samplingInfo.txt
+unmapped_reads.txt
+alignment_metrics.log
+
+# 数据与输出
+*.gaf
+*.tar.gz
+*.zip
+*.tar.xz
+igv_output/
+high_freq_interval*.txt
+test.gaf
+# 编译产物
+minigraph
+*.o
+*.so
+*.a
+
+# 误创建文件
+80705*
